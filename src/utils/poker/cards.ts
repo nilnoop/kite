@@ -109,7 +109,7 @@ export const shuffleCards = (cards) => {
     
 }
 
-export const deliverCards = (cards, toPersons = 3): Card[][] => {
+export const deliverCards = (cards, toPersons = 3): any => {
     cards = cloneDeep(cards)
     const delivered = new Array(toPersons).fill([])
     let startIndex = 0
