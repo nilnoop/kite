@@ -26,4 +26,4 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.STAGING_NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         with:
-          args: deploy --dir=dist --prod
+          args: deploy --dir=build --prod
