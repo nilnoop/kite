@@ -17,6 +17,7 @@
             </div>
         </div>
     </div>
+    <div class="color"></div>
 </template>
 <script lang="ts">
 import promiseLimit from "@/utils/promiseLimit";
@@ -136,5 +137,9 @@ export default defineComponent({
 
         }
     }
+}
+.color {
+    height: 200px;
+    background-color: #faf0f0;
 }
 </style>
