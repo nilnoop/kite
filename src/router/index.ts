@@ -10,7 +10,6 @@ const routes: Array<RouteRecordRaw> = [
     path: "/",
     name: "home",
     redirect: "/fortune",
-    component: Home,
     meta: {
       title: "",
     },
